@@ -1,0 +1,12 @@
+$font-size-button: 0.75rem;
+
+.button {
+  padding: $spacing-tiny $spacing;
+  color: $color-invert;
+  text-decoration: none;
+  background: $color-cta;
+  @include font;
+  font-size: $font-size-button;
+}
+
+@import './button_importance-high';
