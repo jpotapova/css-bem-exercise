@@ -11,7 +11,7 @@
   "scripts": {
     "scss:dev": "node-sass src/scss/index.scss dist/public/css/index.css",
     "scss:prod": "node-sass src/scss/index.scss dist/public/css/index.css --output-style compressed",
-    "lint:scss": "sass-lint -c .sass-lint.yml 'src/scss/**/*.scss' -v -q",
+    "lint:scss": "echo 'scss linting => TBD'",
     "process:css": "echo '=> processing css' && npm run lint:scss -s && npm run scss:dev -s",
     "watch:css": "watch 'npm run process:css -s' src/scss/",
     "dev": "echo '=> building' && npm run process:css -s",
