@@ -1,5 +1,5 @@
 $spacing: 1.25rem;
-$spacing-tiny: 0.25rem;
+$spacing-tiny: .25rem;
 
 $color-white: #fff;
 $color-green: #60bf93;
@@ -10,7 +10,7 @@ $color-cta: $color-green;
 $color-important: $color-red;
 
 @mixin font {
-  font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
 @mixin no-spacing-around {
