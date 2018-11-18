@@ -1,0 +1,9 @@
+.site {
+  @include box-model;
+
+  *,
+  *::before,
+  *::after {
+    @include box-model;
+  }
+}

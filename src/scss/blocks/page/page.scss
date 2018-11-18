@@ -1,4 +1,8 @@
-body {
-  @include no-spacing-around;
+.page {
   font-size: 16px;
+  margin: 0;
+  padding: $spacing 0;
 }
+
+@import './page__header';
+@import './page__container';
