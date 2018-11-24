@@ -1,8 +1,4 @@
 .page__header {
   @include border('bottom');
-  align-items: flex-start;
   box-shadow: 0 5px 3px $color-shadow;
-  display: flex;
-  justify-content: space-between;
-  padding-bottom: $spacing;
 }
