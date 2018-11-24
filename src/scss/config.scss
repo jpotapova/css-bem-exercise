@@ -13,20 +13,3 @@ $color-cta: $color-green;
 $color-important: $color-red;
 $color-border: $color-gray;
 $color-shadow: $color-light-gray;
-
-@mixin font {
-  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-}
-
-@mixin box-model {
-  box-sizing: border-box;
-}
-
-@mixin border($position) {
-  @if $position == 'bottom' {
-    border-bottom: $thickness solid $color-gray;
-  } @else {
-    border: $thickness solid $color-gray;
-  }
-
-}
