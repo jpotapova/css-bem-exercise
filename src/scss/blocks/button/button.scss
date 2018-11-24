@@ -1,11 +1,9 @@
-$font-size-button: .75rem;
-
 .button {
   @include font;
   background: $color-cta;
   color: $color-invert;
-  font-size: $font-size-button;
-  padding: $spacing-tiny $spacing;
+  font-size: $font-size-base;
+  padding: $spacing-small $spacing-large;
   text-decoration: none;
 }
 
