@@ -1,4 +1,4 @@
-$spacing: 1.25rem;
+$spacing: .75rem;
 $spacing-tiny: .25rem;
 $thickness: 1px;
 
@@ -6,11 +6,13 @@ $color-white: #fff;
 $color-green: #60bf93;
 $color-red: #e14f42;
 $color-gray: #c2c2c2;
+$color-light-gray: #f7f7f7;
 
 $color-invert: $color-white;
 $color-cta: $color-green;
 $color-important: $color-red;
 $color-border: $color-gray;
+$color-shadow: $color-light-gray;
 
 @mixin font {
   font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
