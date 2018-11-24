@@ -1,8 +1,10 @@
 .nav__link {
+  @include border('top');
   @include font;
+  align-items: center;
   color: $color-text;
-  display: block;
-  padding-bottom: $spacing;
-  padding-top: $spacing;
+  display: flex;
+  height: $size-tappable;
+  justify-content: center;
   text-decoration: none;
 }

@@ -1,10 +1,14 @@
 .button {
   @include font;
+  align-items: center;
   background: $color-cta;
   color: $color-invert;
+  display: flex;
   font-size: $font-size-base;
-  padding: $spacing-small $spacing-large;
+  height: $size-tappable - $spacing;
+  justify-content: center;
   text-decoration: none;
 }
 
-@import './button_importance_high';
+@import './button_important';
+@import './button_toggler_off';

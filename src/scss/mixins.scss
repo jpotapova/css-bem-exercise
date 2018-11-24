@@ -1,10 +1,10 @@
-@mixin border($position) {
+@mixin border($position: '', $color: $color-border) {
   @if $position == 'bottom' {
-    border-bottom: $thickness solid $color-gray;
+    border-bottom: $thickness solid $color;
   } @else if $position == 'top' {
-    border-top: $thickness solid $color-gray;
+    border-top: $thickness solid $color;
   } @else {
-    border: $thickness solid $color-gray;
+    border: $thickness solid $color;
   }
 }
 
