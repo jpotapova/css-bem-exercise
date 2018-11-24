@@ -1,0 +1,8 @@
+.nav__link {
+  text-decoration: none;
+  color: $color-text;
+  @include font;
+  padding-top: $spacing;
+  padding-bottom: $spacing;
+  display: block;
+}
