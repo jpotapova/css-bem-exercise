@@ -1,5 +1,10 @@
 .nav {
   @include list-reset;
+  height: 0;
+  overflow: hidden;
+  transition-duration: .5s;
+  transition-property: height;
 }
 
+@import './nav_open';
 @import './nav__link';

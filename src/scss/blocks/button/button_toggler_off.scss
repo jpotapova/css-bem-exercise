@@ -1,8 +1,5 @@
 .button_toggler_off {
-  @include border('', $color-text);
+  @include button-toggler;
   background: $color-invert;
   color: $color-text;
-  font-size: $font-size-large;
-  height: $size-tappable - $spacing;
-  width: $size-tappable - $spacing;
 }

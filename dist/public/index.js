@@ -1,0 +1,9 @@
+$(document).ready(function(){
+  $('#button_toggler').click(function(e){
+    e.preventDefault();
+    $(this)
+      .toggleClass('button_toggler_on')
+      .toggleClass('button_toggler_off');
+    $('#nav').toggleClass('nav_open');
+  });
+});

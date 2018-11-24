@@ -10,5 +10,13 @@
   text-decoration: none;
 }
 
+@mixin button-toggler {
+  @include border('', $color-text);
+  font-size: $font-size-large;
+  height: $size-tappable - $spacing;
+  width: $size-tappable - $spacing;
+}
+
 @import './button_important';
 @import './button_toggler_off';
+@import './button_toggler_on';
