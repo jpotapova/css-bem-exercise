@@ -1,17 +1,19 @@
-@mixin font {
-  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+@mixin border($position) {
+  @if $position == 'bottom' {
+    border-bottom: $thickness solid $color-gray;
+  } @else if $position == 'top' {
+    border-top: $thickness solid $color-gray;
+  } @else {
+    border: $thickness solid $color-gray;
+  }
 }
 
 @mixin box-model {
   box-sizing: border-box;
 }
 
-@mixin border($position) {
-  @if $position == 'bottom' {
-    border-bottom: $thickness solid $color-gray;
-  } @else {
-    border: $thickness solid $color-gray;
-  }
+@mixin font {
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
 @mixin list-reset {

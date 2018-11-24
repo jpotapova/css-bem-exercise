@@ -1,23 +1,23 @@
-$spacing: .75rem;
-$spacing-tiny: .25rem;
-$spacing-small: .5rem;
-$spacing-large: 1rem;
-$spacing-xlarge: 1.5rem;
-$thickness: 1px;
-
-$color-white: #fff;
-$color-green: #60bf93;
-$color-red: #e14f42;
-$color-gray: #c2c2c2;
-$color-light-gray: #f7f7f7;
 $color-black: #626161;
+$color-gray: #c2c2c2;
+$color-green: #60bf93;
+$color-light-gray: #f7f7f7;
+$color-red: #e14f42;
+$color-white: #fff;
 
-
-$color-invert: $color-white;
+$color-border: $color-gray;
 $color-cta: $color-green;
 $color-important: $color-red;
-$color-border: $color-gray;
+$color-invert: $color-white;
 $color-shadow: $color-light-gray;
 $color-text: $color-black;
 
 $font-size-base: 16px;
+
+$spacing: .75rem;
+$spacing-large: 1rem;
+$spacing-small: .5rem;
+$spacing-tiny: .25rem;
+$spacing-xlarge: 1.5rem;
+
+$thickness: 1px;
