@@ -3,10 +3,12 @@
   align-items: center;
   background: $color-cta;
   color: $color-invert;
-  display: flex;
+  display: inline-flex;
   font-size: $font-size-base;
   height: $size-tappable - $spacing;
   justify-content: center;
+  padding-left: $spacing-large;
+  padding-right: $spacing-large;
   text-decoration: none;
 }
 

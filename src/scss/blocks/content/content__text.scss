@@ -1,0 +1,10 @@
+.content__text {
+  flex-grow: auto;
+  padding-left: $spacing-large;
+
+  p {
+    @include typography;
+    margin: 0;
+    padding-bottom: $spacing;
+  }
+}

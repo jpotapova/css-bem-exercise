@@ -21,3 +21,8 @@
   margin: 0;
   padding: 0;
 }
+
+@mixin typography {
+  @include font;
+  color: $color-text;
+}

@@ -1,8 +1,7 @@
 .nav__link {
   @include border('top');
-  @include font;
+  @include typography;
   align-items: center;
-  color: $color-text;
   display: flex;
   height: $size-tappable;
   justify-content: center;
