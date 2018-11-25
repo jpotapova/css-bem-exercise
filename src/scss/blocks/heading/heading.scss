@@ -1,1 +1,7 @@
-@import './heading_type_main';
+.heading {
+  @include font;
+  color: $color-highlight;
+  font-size: 1.5rem;
+  font-weight: normal;
+  margin: 0;
+}

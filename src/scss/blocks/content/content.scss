@@ -1,3 +1,7 @@
 .content {
-  padding: $spacing-large 0;
+  display: flex;
+  justify-content: space-between;
 }
+
+@import './content_align_bottom';
+@import './content_align_top';

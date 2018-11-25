@@ -1,4 +1,6 @@
-.page__header {
+.header {
   @include border('bottom');
   box-shadow: 0 5px 3px $color-shadow;
 }
+
+@import './header__content';

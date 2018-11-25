@@ -1,11 +1,5 @@
 .page {
   font-size: $font-size-base;
   margin: 0;
-  padding: $size-tappable 0 0;
+  padding: 0;
 }
-
-@import './page__container';
-@import './page__header';
-@import './page__header-top';
-@import './page__logo';
-@import './page__spacer';
