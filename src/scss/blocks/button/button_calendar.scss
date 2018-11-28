@@ -1,0 +1,8 @@
+$padding-button-calendar: 3px;
+
+.button_calendar {
+  height: $height-day + $height-month;
+  padding-left: $padding-button-calendar;
+  padding-right: $padding-button-calendar;
+  width: 4rem;
+}

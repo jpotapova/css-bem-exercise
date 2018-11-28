@@ -1,0 +1,5 @@
+.button__date_month {
+  @include border('top', $color-invert);
+  justify-content: center;
+  width: 100%;
+}
