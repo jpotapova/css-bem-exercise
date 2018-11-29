@@ -2,8 +2,6 @@
   padding-left: $spacing-large;
 
   p {
-    @include typography;
-    margin: 0;
-    padding-bottom: $spacing;
+    @include paragraph;
   }
 }

@@ -26,3 +26,9 @@
   @include font;
   color: $color-text;
 }
+
+@mixin paragraph {
+  @include typography;
+  margin: 0;
+  padding-bottom: $spacing;
+}
