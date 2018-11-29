@@ -1,8 +1,9 @@
 .content {
   display: flex;
-  justify-content: space-between;
 }
 
 @import './content_align_bottom';
 @import './content_align_top';
+@import './content_align_center';
 @import './content__text';
+@import './content__text_concise';
