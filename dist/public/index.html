@@ -214,9 +214,17 @@
       </section>
     </aside>
     <footer>
-      <section class="page__section page__border_inverted container">
+      <section class="page__section page__border_inverted container newsletter">
         <h2 class="heading heading_secondary page__subsection">Stay Informed</h2>
-        <p class="subheading page__subsection">Subscribe to Our Newsletter</p>
+        <p class="subheading page__subsection" for="newsletter-email">Subscribe to Our Newsletter</p>
+        <form>
+          <div class="page__subsection">
+            <input type="text" name="newsletter-email" id="newsletter-email" class="text-field" placeholder="Enter your Email"/>
+          </div>
+          <div class="page__subsection newsletter__submit">
+            <input type="submit" name="newsletter-submit" class="button button_cta" />
+          </div>
+        </form>
       </section>
       <section class="page__section page__border_inverted container">
         <h2 class="heading heading_secondary page__subsection">Stay Connected</h2>

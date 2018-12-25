@@ -9,6 +9,7 @@
   height: $size-tappable - $spacing;
   justify-content: center;
   text-decoration: none;
+  border: none;
 }
 
 @mixin button-toggler {
