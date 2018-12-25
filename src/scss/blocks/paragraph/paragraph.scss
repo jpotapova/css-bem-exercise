@@ -1,3 +1,5 @@
 .paragraph {
   @include paragraph;
 }
+
+@import './paragraph_last';

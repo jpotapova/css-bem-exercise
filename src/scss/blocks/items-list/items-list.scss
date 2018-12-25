@@ -1,3 +1,5 @@
 .items-list {
   @include list-reset;
 }
+
+@import './items-list__item';
