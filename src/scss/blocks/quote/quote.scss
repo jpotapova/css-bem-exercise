@@ -1,0 +1,5 @@
+.quote {
+  @include paragraph;
+  margin: 0;
+  font-style: italic;
+}

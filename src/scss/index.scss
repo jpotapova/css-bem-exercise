@@ -1,7 +1,6 @@
 @import './config';
 @import './mixins';
 
-@import './blocks/about/about';
 @import './blocks/button/button';
 @import './blocks/container/container';
 @import './blocks/content/content';
@@ -9,7 +8,10 @@
 @import './blocks/header/header';
 @import './blocks/image/image';
 @import './blocks/items-list/items-list';
+@import './blocks/link/link';
 @import './blocks/nav/nav';
 @import './blocks/page/page';
 @import './blocks/paragraph/paragraph';
+@import './blocks/quote/quote';
+@import './blocks/section/section';
 @import './blocks/site/site';
