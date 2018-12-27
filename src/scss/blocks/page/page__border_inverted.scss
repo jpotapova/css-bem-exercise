@@ -1,4 +1,4 @@
 .page__border_inverted {
-  background: $color-border;
   @include border('bottom', $color-invert);
+  background: $color-border;
 }
