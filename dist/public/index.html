@@ -32,8 +32,8 @@
         </ul>
       </nav>
     </header>
-    <main class="page__border container">
-      <section class="page__section">
+    <main class="page__border container page__columns">
+      <section class="page__section page__column">
         <h1 class="heading page__subsection">We care about giving</h1>
         <ul class="items-list">
           <li class="content content_align_top page__subsection">
@@ -86,7 +86,7 @@
           </li>
         </ul>
       </section>
-      <section class="page__section">
+      <section class="page__section page__column">
         <h2 class="heading page__subsection">Upcoming actions</h2>
         <ul class="items-list">
           <li class="content content_align_top page__subsection">
@@ -144,8 +144,8 @@
         </ul>
       </section>
     </main>
-    <aside>
-      <section class="page__section container page__border">
+    <aside class="page__columns">
+      <section class="page__section container page__border page__column_part_one-third">
         <h2 class="heading page__subsection">Our Services</h2>
         <ul class="items-list">
           <li class="content content_align_center page__subsection  page__subsection_concise">
@@ -190,14 +190,14 @@
           </li>
         </ul>
       </section>
-      <article class="section page__section container page__border">
+      <article class="section page__section container page__border  page__column_part_one-third">
         <h2 class="heading page__subsection">About the Latest Action</h2>
         <a href="#" class="section__item"><img class="image" src="https://via.placeholder.com/426x200?text=About" title="About" /></a>
         <p class="paragraph section__item">
           Maecenas vehicula egestas enatis. Duis mass uctor non pellentesque vel liquet sit amet erat. Nullam eget dignissim nisi, aliquam
         </p>
       </article>
-      <section class="section page__section container page__border">
+      <section class="section page__section container page__border  page__column_part_one-third">
         <h2 class="heading page__subsection">Testimonials</h2>
         <div class="section__item">
           <blockquote class="quote">Nulla vel viverra auctorleo agna sodales felis, quis malesuada nibh odio ut velit. Proin phar</blockquote>
@@ -214,44 +214,46 @@
       </section>
     </aside>
     <footer class="footer">
-      <section class="page__section page__border_inverted container">
-        <h2 class="heading heading_secondary page__subsection">Stay Informed</h2>
-        <p class="subheading" for="newsletter-email">Subscribe to Our Newsletter</p>
-        <form>
+      <div class="page__columns">
+        <section class="page__section page__border_inverted container page__column">
+          <h2 class="heading heading_secondary page__subsection">Stay Informed</h2>
+          <p class="subheading" for="newsletter-email">Subscribe to Our Newsletter</p>
+          <form>
+            <div class="page__subsection">
+              <input type="text" name="newsletter-email" id="newsletter-email" class="text-field" placeholder="Enter your Email"/>
+            </div>
+            <div class="page__subsection footer__newsletter-submit">
+              <input type="submit" name="newsletter-submit" class="button button_cta" />
+            </div>
+          </form>
+        </section>
+        <section class="page__section page__border_inverted container page__column">
+          <h2 class="heading heading_secondary page__subsection">Stay Connected</h2>
           <div class="page__subsection">
-            <input type="text" name="newsletter-email" id="newsletter-email" class="text-field" placeholder="Enter your Email"/>
+            <p class="subheading">Follow Us on Social Media Accounts</p>
+            <p class="paragraph paragraph_last">
+              Cras facilisis, nulla vel viverra auctor, leo magna sodales felis, quis malesuada nibh odio ut velit. Proin pharetra
+            </p>
           </div>
-          <div class="page__subsection footer__newsletter-submit">
-            <input type="submit" name="newsletter-submit" class="button button_cta" />
-          </div>
-        </form>
-      </section>
-      <section class="page__section page__border_inverted container">
-        <h2 class="heading heading_secondary page__subsection">Stay Connected</h2>
-        <div class="page__subsection">
-          <p class="subheading">Follow Us on Social Media Accounts</p>
-          <p class="paragraph paragraph_last">
-            Cras facilisis, nulla vel viverra auctor, leo magna sodales felis, quis malesuada nibh odio ut velit. Proin pharetra
-          </p>
-        </div>
-        <ul class="items-list page__subsection">
-          <li class="items-list__item">
-            <a href="#" target="_blank" class="button button_cta">T</a>
-          </li>
-          <li class="items-list__item">
-            <a href="#" target="_blank" class="button button_cta">&#120307;</a>
-          </li>
-          <li class="items-list__item">
-            <a href="#" target="_blank" class="button button_cta">P</a>
-          </li>
-          <li class="items-list__item">
-            <a href="#" target="_blank" class="button button_cta">G</a>
-          </li>
-          <li class="items-list__item">
-            <a href="#" target="_blank" class="button button_cta">I</a>
-          </li>
-        </ul>
-      </section>
+          <ul class="items-list page__subsection">
+            <li class="items-list__item">
+              <a href="#" target="_blank" class="button button_cta">T</a>
+            </li>
+            <li class="items-list__item">
+              <a href="#" target="_blank" class="button button_cta">&#120307;</a>
+            </li>
+            <li class="items-list__item">
+              <a href="#" target="_blank" class="button button_cta">P</a>
+            </li>
+            <li class="items-list__item">
+              <a href="#" target="_blank" class="button button_cta">G</a>
+            </li>
+            <li class="items-list__item">
+              <a href="#" target="_blank" class="button button_cta">I</a>
+            </li>
+          </ul>
+        </section>
+      </div>
       <section class="page__section container page__subsection">
         <p class="footer__copyright">
           &copy; 2014 | Privacy Policy
